@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  font-family: "Red Hat Text", sans-serif;
+}
+.main-bg {
+  background-image: url(./assets/bg-stars.svg), url(./assets/pattern-hills.svg),
+    linear-gradient(hsl(235, 16%, 14%), rgb(33, 26, 41));
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  background-size: 100% auto, contain;
+}
